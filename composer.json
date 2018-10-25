@@ -17,7 +17,10 @@
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.0"
-    },
+    }
+    ,"require": { 
+        "php": "^7.2.10"
+      },
     "autoload": {
         "classmap": [
             "database/seeds",
@@ -63,9 +66,4 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true
-}
-{
-  "require": {
-    "php": "^5.6.0"
-  }
 }
