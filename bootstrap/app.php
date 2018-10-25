@@ -12,9 +12,8 @@
 */
 
 $app = new Illuminate\Foundation\Application(
-    realpath(__DIR__.'/../')
+    realpath(require __DIR__.'/../vendor/autoload.php')
 );
-
 
 /*
 |--------------------------------------------------------------------------
