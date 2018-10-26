@@ -1,2 +1,1 @@
-
-web: vendor / bin / heroku-php-apache2 public
+web: waitress-serve --port=$PORT hellowebapp.wsgi:application
